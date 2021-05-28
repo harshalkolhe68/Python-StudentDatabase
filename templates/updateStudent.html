@@ -1,0 +1,45 @@
+<div align='center'>
+<fieldset>
+<h1> This is Update Profile Form</h1>
+<form action ="updateStudent" method="POST">
+    <table border = '1' cellspacing='10'>
+        <tr>
+            <td> rollNo </td>
+            <td> <input type="text" name="id" value="{{e[0]}}"> </td>
+        </tr>
+
+        <tr>
+            <td> Name </td>
+            <td> <input type="text" name="name" value="{{e[1]}}"> </td>
+        </tr>
+
+        <tr>
+            <td> College </td>
+            <td> <input type="text" name="college" value="{{e[2]}}"> </td>
+        </tr>
+
+        <tr>
+            <td> Email </td>
+            <td> <input type="text" name="email" value="{{e[3]}}"> </td>
+        </tr>
+
+        <tr>
+            <td> Age </td>
+            <td> <input type="text" name="age" value="{{e[4]}}"> </td>
+        </tr>
+
+        <tr>
+            <td> Gender </td>
+            <td> <input type="text" name="gender" value="{{e[5]}}"> </td>
+        </tr>
+	
+	<tr>
+	    <td> <input type="submit" value ="Update"> </td>
+	    <td> <input type="reset" value ="Reset"> </td>
+                  </tr>
+	
+    </table>
+</form>
+    <h2> <a href="/"> Home </a><h2>
+</div>
+</fieldset>
